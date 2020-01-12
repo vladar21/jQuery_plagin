@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="src/css/lightslider.css">
+    <style>
+        #light-slider>li>h3 {
+            text-align: center;
+        }
+        #light-slider>li>img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+</head>
+<body>
+
+    <ul id="light-slider">
+        <li>
+            <h3>First Slide</h3>
+            <img src="src/img/1.jpg"/>
+        </li>
+        <li>
+            <h3>Second Slide</h3>
+            <img src="src/img/2.jpg"/>
+        </li>
+        <li>
+            <h3>Third Slide</h3>
+            <img src="src/img/3.jpg"/>
+        </li>
+        <li>
+            <h3>Fourth Slide</h3>
+            <img src="src/img/4.jpg"/>
+        </li>
+        <li>
+            <h3>Fifth Slide</h3>
+            <img src="src/img/5.jpg"/>
+        </li>      
+    </ul>
+
+
+    <script
+    src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+    </script>    
+    <script src="src/js/lightslider.js"></script>
+    <script src="src/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#light-slider").lightSlider();
+        });
+    </script>
+    
+    
+    
+    
+</body>
+</html>
